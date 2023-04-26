@@ -1,0 +1,21 @@
+.grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 1.5px;
+    color: #eee;
+    height: 50vh;
+    width: 50vw;
+    margin: auto;
+  }
+  
+  .cell {
+    display: flex;
+    background-color: #eee;
+    font-size: 20px;
+    border-radius: 5px;
+    gap: 1px;
+  }
+  
